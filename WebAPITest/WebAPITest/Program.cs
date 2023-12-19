@@ -14,7 +14,7 @@ var app = builder.Build();
 //{
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+//}
 
 app.UseHttpsRedirection();
 
@@ -22,6 +22,6 @@ app.UseHttpsRedirection();
 
 //app.MapControllers();
 
-app.MapGet("time/utc", () => Results.Ok(DateTime.DaysInMonth));
+app.MapGet("time/utc", () => Results.Ok(DateTime.UtcNow));
 
 app.Run();
