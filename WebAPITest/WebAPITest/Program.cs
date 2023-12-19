@@ -22,6 +22,6 @@ app.UseHttpsRedirection();
 
 //app.MapControllers();
 
-app.MapGet("time/utc", () => Results.Ok(DateTime.Today));
+app.MapGet("time/utc", () => Results.Ok(DateTime.DaysInMonth));
 
 app.Run();
