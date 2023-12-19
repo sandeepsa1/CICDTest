@@ -19,10 +19,10 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Restore
-        run: dotnet restore ./WebAPITest.sln
+        run: dotnet restore ./WebAPITest/WebAPITest.sln
 
       - name: Build
-        run: dotnet build ./WebAPITest.sln --configuration Release --no-restore
+        run: dotnet build ./WebAPITest/WebAPITest.sln --configuration Release --no-restore
 
       - name: Publish
-        run: dotnet publish ./WebAPITest.sln --configuration Release --no-build
+        run: dotnet publish ./WebAPITest/WebAPITest.sln --configuration Release --no-build
