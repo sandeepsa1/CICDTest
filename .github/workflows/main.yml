@@ -26,4 +26,4 @@ jobs:
         run: dotnet build ./WebAPITest/WebAPITest.sln --configuration Release --no-restore
 
       - name: Publish
-        run: dotnet publish ./WebAPITest/WebAPITest/WebAPITest.csproj --configuration Release --output Publish
+        run: dotnet publish ./WebAPITest/WebAPITest.sln --configuration Release --no-build --output Publish
