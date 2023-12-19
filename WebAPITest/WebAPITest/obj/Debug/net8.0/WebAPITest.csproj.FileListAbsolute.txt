@@ -30,3 +30,4 @@ F:\Work\German\Job\Training\CICD\WebAPITest\WebAPITest\obj\Debug\net8.0\refint\W
 F:\Work\German\Job\Training\CICD\WebAPITest\WebAPITest\obj\Debug\net8.0\WebAPITest.pdb
 F:\Work\German\Job\Training\CICD\WebAPITest\WebAPITest\obj\Debug\net8.0\WebAPITest.genruntimeconfig.cache
 F:\Work\German\Job\Training\CICD\WebAPITest\WebAPITest\obj\Debug\net8.0\ref\WebAPITest.dll
+F:\Work\German\Job\Training\CICD\WebAPITest\WebAPITest\obj\Debug\net8.0\WebAPITest.sourcelink.json
