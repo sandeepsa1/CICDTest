@@ -22,7 +22,6 @@ app.UseHttpsRedirection();
 
 //app.MapControllers();
 
-//Test Commit
 app.MapGet("time/utc", () => Results.Ok(DateTime.UtcNow));
 
 app.Run();
